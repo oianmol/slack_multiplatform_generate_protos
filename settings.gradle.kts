@@ -1,4 +1,11 @@
 pluginManagement{
+    repositories {
+        google()
+        jcenter()
+        gradlePluginPortal()
+        mavenCentral()
+        mavenLocal()
+    }
     plugins {
         kotlin("jvm") version "1.7.20"
     }
@@ -6,5 +13,5 @@ pluginManagement{
 
 include(":protos")
 
-rootProject.name = "generate-proto"
+rootProject.name = "slack-multiplatform-generate-protos"
 
