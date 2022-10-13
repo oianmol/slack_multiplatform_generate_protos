@@ -1,8 +1,7 @@
 import com.google.protobuf.gradle.*
-import org.apache.tools.ant.taskdefs.condition.Os
 
 plugins {
-    kotlin("jvm")
+    kotlin("jvm") version "1.7.20"
 
     id("java")
     id("com.google.protobuf") version "0.8.19"
