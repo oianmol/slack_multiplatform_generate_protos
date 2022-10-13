@@ -8,8 +8,6 @@ plugins {
     id("com.google.protobuf") version "0.8.19"
 }
 
-version = "1.0.0"
-
 object Versions {
     const val GRPC = "1.49.1"
     const val GRPC_KOTLIN = "1.3.0"
