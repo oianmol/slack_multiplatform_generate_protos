@@ -1,4 +1,3 @@
 [submodule "protos"]
 	path = protos
 	url = https://github.com/Anmol92verma/slack_multiplatform_protos.git
-	branch = feat/mongo_schema
