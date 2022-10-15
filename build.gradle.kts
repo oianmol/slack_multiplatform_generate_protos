@@ -8,7 +8,7 @@ plugins {
 }
 
 group = "dev.baseio.slackdatalib"
-version = "1.0"
+version = "1.0.0"
 
 val sourcesJar by tasks.registering(Jar::class) {
     classifier = "sources"
