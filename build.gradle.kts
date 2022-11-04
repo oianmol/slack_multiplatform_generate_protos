@@ -46,7 +46,12 @@ dependencies {
     api("io.grpc:grpc-protobuf:${Versions.GRPC}")
     api("io.grpc:grpc-stub:${Versions.GRPC}")
     api("io.grpc:grpc-kotlin-stub:${Versions.GRPC_KOTLIN}")
-
+    kotlin.srcDirs(
+        projectDir.resolve("build/generated/source/proto/main/kotlin").canonicalPath,
+        projectDir.resolve("build/generated/source/proto/main/java").canonicalPath,
+        projectDir.resolve("build/generated/source/proto/main/grpckt").canonicalPath,
+        projectDir.resolve("build/generated/source/proto/main/grpc").canonicalPath
+    )
     api("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4")
 }
 

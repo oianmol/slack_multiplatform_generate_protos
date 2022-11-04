@@ -11,7 +11,7 @@ pluginManagement{
     }
 }
 
-include(":protos")
+include(":slack_protos")
 
 rootProject.name = "slack-multiplatform-generate-protos"
 
